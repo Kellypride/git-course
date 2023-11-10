@@ -1,0 +1,34 @@
+body{
+    background-image: url(mac.jpg);
+}
+h1{
+    color: blue;
+}
+p{
+    color:red
+}
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: white ;
+}
+table{
+    border-spacing: 30px;
+}
+th, td { 
+    
+    color: purple;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
